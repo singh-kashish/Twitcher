@@ -1,20 +1,17 @@
 # Twitcher
 
-# React app with redux, hooks, Google Auth, OBS Streaming
+# React App with Redux/Redux-Thunk, Google OAuth, OBS Streaming
 
-From coding along with Stephen Grider in his Udemy course https://www.udemy.com/react-redux (and code here https://github.com/StephenGrider/redux-code)
+- If you are new or kind of new to React I highly recommend it, at least read the description to see what's in it, I did learn some stuff
 
-- if you are new or kind of new to React I highly recommend it, at least read the description to see what's in it, I did learn some stuff
-- and it was really nice to code along and have the structure and requirements as I built my app with the new (new in 2019) hooks system and only functional components, where Stephen builds the app with class components. I could fokus on what it should look like and how it should function and not be destracted by designing and feature creeping =)
+## The App consists of :
 
-## the App consists of
+streams\api - It contains JsonPlaceHolder Api REST server which is used as a database to implement CRUD functionality.
 
-streams\api - where we fetch and save data (very simple)
+streams\client - It contains the React/Redux side of components of the app
+(Note:  Google Authorization  gives access to Create, Edit and Delete , without logging in a person can view a stream from the stream list)
 
-streams\client - the UI where we can create and view streams
-(note: the Google authorization only handles access to Create, Edit and Delete - without the authorization you can still run the client and watch a stream)
-
-streams\rtmpserver - hosting the stream from OBS Studio
+streams\rtmpserver - It  the stream from OBS Studio
 
 ## and is dependent on (besides the node modules)
 
@@ -56,12 +53,21 @@ Change settings for stream - File/Settings/Stream
 - URL = rtmp://localhost/live
 - Stream key = 1
   -- note, the stream key must match the id of the stream in the client,
-  example: http://localhost:3000/streams/1
-  would match on stream key 1
+  example: http://localhost:3000/streams/id
+  would match with stream key id which can be looked upon from the url
 
 Start streaming (note, you must have started the media server)
 
 ## ScreenShots :
-
+- HomePage
+  ![image](https://user-images.githubusercontent.com/54403943/124511491-e85afa80-ddf3-11eb-9ca6-d412be78d8fb.png)
 - Create New Stream
-  ![alt text](https://github.com/singh-kashish28/Twitcher/blob/[master]/create.jpg?raw=true)
+  ![create](https://user-images.githubusercontent.com/54403943/124510727-17706c80-ddf2-11eb-9567-2104e3151e53.png)
+- Delete a Stream
+  ![delete](https://user-images.githubusercontent.com/54403943/124511187-2c99cb00-ddf3-11eb-8a15-86000f5e86d1.png)
+- Edit a Stream Details
+  ![edit](https://user-images.githubusercontent.com/54403943/124511237-476c3f80-ddf3-11eb-9eaf-8855e58ab283.png)
+- Running Streams
+  ![stream2](https://user-images.githubusercontent.com/54403943/124511555-104a5e00-ddf4-11eb-89ad-4082c6513d15.jpg)
+  ![stream1](https://user-images.githubusercontent.com/54403943/124511557-12acb800-ddf4-11eb-8854-dfbab8180a1c.png)
+  

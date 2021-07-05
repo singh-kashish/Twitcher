@@ -13,7 +13,7 @@ streams\client - It contains the React/Redux side of components of the app
 
 streams\rtmpserver - It  the stream from OBS Studio
 
-## and is dependent on (besides the node modules)
+## Dependencies apart from Node Modules
 
 OBS Studio - open source for video streaming and recording
 
@@ -70,4 +70,3 @@ Start streaming (note, you must have started the media server)
 - Running Streams
   ![stream2](https://user-images.githubusercontent.com/54403943/124511555-104a5e00-ddf4-11eb-89ad-4082c6513d15.jpg)
   ![stream1](https://user-images.githubusercontent.com/54403943/124511557-12acb800-ddf4-11eb-8854-dfbab8180a1c.png)
-  

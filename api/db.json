@@ -1,18 +1,28 @@
 {
   "streams": [
     {
+      "title": "YouTube Music Stream",
+      "description": "Music Destination for NewYear's eve.",
+      "userId": "112259814363344384358",
       "id": 1
     },
     {
-      "title": "Trying Component Reuse",
-      "description": "Let's try and do this",
+      "title": "LeetCode : 3",
+      "description": "Solving LeetCode Problem Longest Substring Without Repeating Characters",
+      "userId": "112259814363344384358",
       "id": 2
     },
     {
-      "title": "fsdafdsa",
-      "description": "ffff",
-      "userId": "112259814363344384358",
+      "title": "Valorant Stream",
+      "description": "Playing Valorant tonight.",
+      "userId": "103400449252437813662",
       "id": 3
+    },
+    {
+      "title": "Coding Session",
+      "description": "Deploying an Amazon Clone",
+      "userId": "103400449252437813662",
+      "id": 4
     }
   ]
 }

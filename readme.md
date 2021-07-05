@@ -59,14 +59,14 @@ Change settings for stream - File/Settings/Stream
 Start streaming (note, you must have started the media server)
 
 ## ScreenShots :
-- HomePage
+- HomePage - http://localhost:3000/
   ![image](https://user-images.githubusercontent.com/54403943/124511491-e85afa80-ddf3-11eb-9ca6-d412be78d8fb.png)
-- Create New Stream
+- Create New Stream - http://localhost:3000/streams/new
   ![create](https://user-images.githubusercontent.com/54403943/124510727-17706c80-ddf2-11eb-9567-2104e3151e53.png)
-- Delete a Stream
+- Delete a Stream - http://localhost:3000/streams/delete/:id
   ![delete](https://user-images.githubusercontent.com/54403943/124511187-2c99cb00-ddf3-11eb-8a15-86000f5e86d1.png)
-- Edit a Stream Details
+- Edit a Stream Details - http://localhost:3000/streams/edit/:id
   ![edit](https://user-images.githubusercontent.com/54403943/124511237-476c3f80-ddf3-11eb-9eaf-8855e58ab283.png)
-- Running Streams
+- Read/Running Streams - http://localhost:3000/streams/show/:id
   ![stream2](https://user-images.githubusercontent.com/54403943/124511555-104a5e00-ddf4-11eb-89ad-4082c6513d15.jpg)
   ![stream1](https://user-images.githubusercontent.com/54403943/124511557-12acb800-ddf4-11eb-8854-dfbab8180a1c.png)
